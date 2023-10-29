@@ -62,60 +62,6 @@ We recommend that you make as many intermediate variables as you need, to repres
 
 Assign your answer to `p_small`.
 
-
-```python
-# Replace None with appropriate code
-p_small = None
-# your code here
-raise NotImplementedError
-p_small
-```
-
-
-```python
-# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
-# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
-
-# p_small should be a floating point probability between 0 and 1
-assert type(p_small) == float
-assert 0 <= p_small and p_small <= 1
-```
-
-
-```python
-# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
-# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
-```
-
 ## 2. Given that he got a large puppy, what is the probability that Thomas went to the pet store?
 
 In other words, what is $P(Pet Store \mid Large)$?
-
-Hint: In order to calculate this answer, you will need to calculate $P(Large)$. Note that there are 3 sizes of puppy (small, medium, and large), so you can't just subtract $P(Small)$ from 1.
-
-Assign your answer to `p_pet_store_given_large`.
-
-
-```python
-# Replace None with appropriate code
-p_pet_store_given_large = None
-# your code here
-raise NotImplementedError
-p_pet_store_given_large
-```
-
-
-```python
-# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
-# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
-
-# p_small should be a floating point probability between 0 and 1
-assert type(p_pet_store_given_large) == float
-assert 0 <= p_pet_store_given_large and p_pet_store_given_large <= 1
-```
-
-
-```python
-# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
-# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
-```
